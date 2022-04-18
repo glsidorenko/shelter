@@ -34,7 +34,7 @@ a {
 }
 
 header {
-  background: url(/shelter/assets/images/start-screen-gradient-background.png);
+  background: url(../../assets/images/start-screen-gradient-background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -110,6 +110,9 @@ nav {
   width: 30px; 
   height: 22px;
   /* display: block; */
+  /* margin-right: 50px; */
+  /* margin-left: auto; */
+  margin-right: 50px;
   display: none;
   margin-top: 29px;
 }
@@ -139,7 +142,7 @@ nav {
 /* Not-only section */
 
 .not-only {
-  background: no-repeat url(/shelter/assets/images/start-screen-gradient-background.png);
+  background: no-repeat url(../../assets/images/start-screen-gradient-background.png);
   background-size: cover;
   background-position: 0px -180px;
 }
@@ -362,15 +365,15 @@ img {
 }
 
 .card:nth-child(1) .cats {
-  background-image: url(/shelter/assets/images/pets-katrine.png);
+  background-image: url(../../assets/images/pets-katrine.png);
 } 
 
 .card:nth-child(2) .cats {
-  background-image: url(/shelter/assets/images/pets-jennifer.png);
+  background-image: url(../../assets/images/pets-jennifer.png);
 }  
 
 .card:nth-child(3) .cats {
-  background-image: url(/shelter/assets/images/pets-woody.png);
+  background-image: url(../../assets/images/pets-woody.png);
 }  
 
 .card .button-primary {
@@ -428,39 +431,39 @@ img {
 }
 
 .icon:nth-child(1) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-pet-food.svg);
+  background-image: url(../../assets/icons/icon-pet-food.svg);
 }
 
 .icon:nth-child(2) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-transportation.svg);
+  background-image: url(../../assets/icons/icon-transportation.svg);
 }
 
 .icon:nth-child(3) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-toys.svg);
+  background-image: url(../../assets/icons/icon-toys.svg);
 }
 
 .icon:nth-child(4) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-bowls-and-cups.svg);
+  background-image: url(../../assets/icons/icon-bowls-and-cups.svg);
 }
 
 .icon:nth-child(5) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-shampoos.svg);
+  background-image: url(../../assets/icons/icon-shampoos.svg);
 }
 
 .icon:nth-child(6) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-vitamins.svg);
+  background-image: url(../../assets/icons/icon-vitamins.svg);
 }
 
 .icon:nth-child(7) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-medicines.svg);
+  background-image: url(../../assets/icons/icon-medicines.svg);
 }
 
 .icon:nth-child(8) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-collars-leashes.svg);
+  background-image: url(../../assets/icons/icon-collars-leashes.svg);
 }
 
 .icon:nth-child(9) .icon-logo {
-  background-image: url(/shelter/assets/icons/icon-sleeping-area.svg);
+  background-image: url(../../assets/icons/icon-sleeping-area.svg);
 }
 
 /* Donation section */
@@ -540,7 +543,7 @@ img {
 /* Footer section */
 
 footer {
-  background-image: url(/shelter/assets/images/footer-background.png);
+  background-image: url(../../assets/images/footer-background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -700,7 +703,7 @@ footer .section-title {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     width: calc(100% - 20px);
     padding-top: 42px;
@@ -713,6 +716,10 @@ footer .section-title {
 
   .header .container {
     padding: 30px 60px;
+  }
+
+  .header-wrapper {
+    justify-content: space-between;
   }
 
   nav {
